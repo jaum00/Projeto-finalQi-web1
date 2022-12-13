@@ -1,0 +1,75 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border-top: 2px solid #272727;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.box-footer {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px;
+}
+
+
+.logo-tipo {
+    width: 15rem;
+}
+
+.subtitle-logo-tipo {
+    margin-top: 10px;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copyright {
+    font-weight: 800;
+}
+
+.footer-title {
+    color: #000000;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+
+.footer-list {
+    margin-top: 10px;
+}
+
+#list-pagamentos {
+    margin: auto;
+    width: 200px;
+}
+#logo-social {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#pagamentos-logo {
+    width: 80px;
+    height: 40px;
+}
+
+#mastercard-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#payPal-logo {
+    width: 80px;
+}

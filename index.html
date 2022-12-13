@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Gabriel, Carol, Danrlei, Luisa, Lucas">
+    <meta name="keywords" content="Everthing Express, Express, Everthing">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/Logo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/cards.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/carrosel.css">
+    <link rel="stylesheet" href="style/padrao.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <title>Everthing Express</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img id="logo-index" src="img/logo-projeto.png"></a>
+        <nav>
+            <ul>
+                <nav class="search-bar">
+                    <div class="search-box">
+                        <input type="text" class="search-text" placeholder="Pesquisar...">
+                        <a class="search-btn">
+                            <img class="icone-pesquisa" src="img/icone-pesquisa.png" alt="">
+                        </a>
+                        </div>
+                    </nav>
+                <!-- <div class="barra-search ">
+                     <input class="search" type="text" placeholder="Procurar...">
+                        <i  id="logo-search" class="fa-sharp fa-solid fa-magnifying-glass"></i> 
+                </div> -->
+
+                <!-- <li><a class="links" href="testes.html">TESTE</a></li> -->
+                <li><a class="links" href="form-sign-up.html">Cadastrar</a></li>
+                <li><a class="links" href="form-login.html">Login</a></li>
+                <li><a class="links" href="loja-produtos.html">Loja</a></li>
+                <li><a href="shop-cart.html"><i id="logo-cart" class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="user.html"><i id="logo-user" class="fa-regular fa-circle-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+
+        <div class="carrosel-container">
+        <div class="slider">
+
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="img/1.png" alt="imagem1">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/2.png" alt="imagem2">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/3.png" alt="imagem3">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/4.png" alt="imagem4">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+    
+            </div>
+    
+            <div class="manual-navigation">
+                <label class="manual-btn" for="radio1"></label>
+                <label class="manual-btn" for="radio2"></label>
+                <label class="manual-btn" for="radio3"></label>
+                <label class="manual-btn" for="radio4"></label>
+            </div>
+        </div>
+    </div>
+
+        <div class="container-info">
+
+            <ul class="section-list">
+                <div class="card-info cards-ofertas">
+
+                    <div class="title-card">
+                        <h3>Ofertas</h3>
+                    </div>
+
+                    <div class="ofertas-container">
+
+                        <section class="section-ofertas">
+                            <a href="loja-produtos.html" class="box-ofertas">
+                                <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                            </a>
+                            <span class="subtitle-ofertas">Ver todas Ofertas</span>
+                        </section>
+
+                        <section class="section-ofertas">
+                            <a href="loja-produtos.html" class="box-ofertas">
+                                <i class="fa-solid fa-clock"></i>
+                            </a>
+                            <span class="subtitle-ofertas">Ofertas Limitadas</span>
+                        </section>
+
+                        <section class="section-ofertas">
+                            <a href="loja-produtos.html" class="box-ofertas">
+                                <i class="fa-solid fa-bolt"></i>
+                            </a>
+                            <span class="subtitle-ofertas">Ofertas Relampago</span>
+                        </section>
+
+                        <section class="section-ofertas">
+                            <a href="loja-produtos.html" class="box-ofertas">
+                                <i class="fa-solid fa-poo"></i>
+                            </a>
+                            <span class="subtitle-ofertas">Ofertas lorem ipsum</span>
+                        </section>
+
+                    </div>
+                </div>
+
+                <div class="card-info">
+                    <div class="title-card">
+                        <h3>Porque Comprar na Everthing Express</h3>
+                    </div>
+
+                    <p>
+                        por que ela não é chinesa e você não precisa esperar
+                        800 anos pra chegar, as entregas são bem rapidas se demorar
+                        culpe o vendedor ou provalvelmente sua entrega foi roubada mas 
+                        nos avisaremos pois nossos produtos são rastreados.
+                    </p>
+
+                </div>
+
+                <div class="card-info card-about">
+                    <div class="title-card">
+                        <h3>Sobre</h3>
+                    </div>
+
+                    <p class="text-about">
+                        a everthing express nois priorizamos sua segurança e a de seu produto,
+                        A qualidade e forma de tratamento. Nosso trabalho não é apenas
+                        servir mas trabalhar em conjunto para um futuro melhor.
+                    </p>
+                </div>
+            </ul>
+
+        </div>
+
+        <section class="section-products section-category">
+
+            <div class="row-container box-category">
+
+                <div class="section-title-and-link">
+                    <h3 class="section-title">Categorias</h3>
+                    <a href="loja-produtos.html" id="section-link">Ir para loja</a>
+                </div>
+
+                <ul class="section-list">
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-car" id="category-logo"></i>
+                            <span>Automoveis</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-palette" id="category-logo"></i>
+                            <span>Arte</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-camera" id="category-logo"></i>
+                            <span>Camêras</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-mobile" id="category-logo"></i>
+                            <span>Celulares</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-desktop" id="category-logo"></i>
+                            <span>Computadores</span>
+                        </div>
+                    </div>
+
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-futbol" id="category-logo"></i>
+                            <span>Esporte</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-solid fa-film" id="category-logo"></i>
+                            <span>Filmes</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-burger" id="category-logo"></i>
+                            <span>Gastronomia</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-gamepad" id="category-logo"></i>
+                            <span>Games</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-glasses" id="category-logo"></i>
+                            <span>Geek</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-guitar" id="category-logo"></i>
+                            <span>Instrumentos</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-book" id="category-logo"></i>
+                            <span>Livros</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-shirt" id="category-logo"></i>
+                            <span>Moda</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-couch" id="category-logo"></i>
+                            <span>Moveis</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-stethoscope" id="category-logo"></i>
+                            <span>Saúde</span>
+                        </div>
+                    </div>
+
+
+                    <div class="cards-category">
+                        <div class="card-content">
+                            <i class="fa-regular fa-paw" id="category-logo"></i>
+                            <span>Pets</span>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-cards">
+            <div class="row-container">
+
+                <div class="section-title-and-link">
+                    <h3 class="section-title"> Ofertas Imperdiveis</h3>
+                    <a href="loja-produtos.html" id="section-link">Ver mais</a>
+                </div>
+
+                <ul class="section-list">
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/fritadeira.jpg" class="card-img" />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Fritadeira Eletrica</h3>
+                            <h2 class="card-price">R$ 311,51</h2>
+                            <h5><s>R$ 379,90</s></h5>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/xbox.jpg" class="card-img" />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Xbox Series S</h3>
+                            <h2 class="card-price">R$ 1403.99</h2>
+                            <h5><s>R$ 2339.99</s></h5>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/arvore-natal.jpg" class=card-img />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Árvore de Natal</h3>
+                            <h2 class="card-price">R$ 73.60</h2>
+                            <h5><s>R$ 350,50</s></h5>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/google-home.jpg" class=card-img />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Google Home</h3>
+                            <h2 class="card-price">R$ 890,98</h2>
+                            <h5><s>R$ 379,90</s></h5>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-cards">
+            <div class="row-container">
+
+                <div class="section-title-and-link">
+                    <h3 class="section-title">Mais Vendidos Na <span id="titulo-destaque">Everthing Express</span></h3>
+                    <a href="loja-produtos.html" id="section-link">Ver mais</a>
+                </div>
+
+                <ul class="section-list">
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/iphone14-pro.jpg" class="card-img" />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Iphone 14s pro</h3>
+                            <h2 class="card-price">R$ 10.803,74</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/play5.jpg" class="card-img" />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Playstation 5</h3>
+                            <h2 class="card-price">R$ 5020,89</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/notebook.jpg" class=card-img />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">NoteBook Acer</h3>
+                            <h2 class="card-price">R$3399,99</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <img src="img/panelas.jpg" class=card-img />
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Kit Panelas</h3>
+                            <h2 class="card-price">R$399,99</h2>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <section class="footer-container">
+
+            <footer class="footer-content">
+
+                <div class="box-footer">
+
+                    <img src="img/Logotipo Everthing Express.png" class="logo-tipo" alt="Everthing Express">
+                    <p class="subtitle-logo-tipo">
+                        Everthing Express 2022 &copy; <br> <span class="copyright">Todos os direitos Reservados</span>
+                    </p>
+                </div>
+
+                <div class="box-footer">
+
+                    <h2 class="footer-title">Sobre nos</h2>
+                    <ul class="footer-list">
+                        <li>Nossa inspiração</li>
+                        <li>Densenvolvedores</li>
+                        <li>Privacidade</li>
+                        <li>Segurança</li>
+                        <li>Pagamentos</li>
+                        <li>Vendas</li>
+                    </ul>
+                </div>
+
+                <div class="box-footer">
+                    <h2 class="footer-title">Siga-nos</h2>
+                    <li><i class="fa-brands fa-facebook" id="logo-social"></i></li>
+                    <li><i class="fa-brands fa-linkedin" id="logo-social"></i></li>
+                    <li><i class="fa-brands fa-instagram" id="logo-social"></i></li>
+                    <li><i class="fa-brands fa-square-twitter" id="logo-social"></i></li>
+
+                </div>
+
+                <div class="box-footer">
+                    <h2 class="footer-title">Pagamentos</h2>
+                    <ul class="footer-list" id="list-pagamentos">
+
+                        <img src="img/Mastercard-logo.svg.png" id="mastercard-logo" alt="">
+                        <img src="img/Visa-Logo.png" id="pagamentos-logo" alt="">
+                        <img src="img/Pix-logo.png" id="pagamentos-logo" alt="">
+                        <img src="img/paypal-logo-png.png" id="payPal-logo" alt="">
+                    </ul>
+                </div>
+
+            </footer>
+        </section>
+
+    </main>
+
+    <script src="js/carrosel.js"></script>
+</body>
+
+</html>

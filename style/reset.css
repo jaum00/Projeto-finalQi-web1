@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;800&family=Noto+Sans:wght@400;700&display=swap');
+/* Heebo */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    list-style: none;
+    font-family: "Heebo";
+
+}
+
+/* Body */
+/*
+    background-color: #f3eedc;
+    width: 100vw;
+    height: 100vh;
+*/

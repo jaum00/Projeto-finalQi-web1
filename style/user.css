@@ -1,0 +1,121 @@
+
+.menu-user {
+    display: flex;
+}
+
+.side-menu-user {
+    margin-top: 5rem;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 320px;
+    height: 400px;
+    padding: 10px;
+}
+
+.menu-header {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+.menu-header #logo-user-menu {
+    font-size: 84px;
+}
+
+.name-and-type {
+    margin-top: .8rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-and-type span {
+    font-size: 28px;
+}
+
+.name-and-type h5{
+    font-size: 15px;
+    color: #ff4500;
+}
+
+.name-and-link span {
+    font-size: 34px;
+}
+
+.body-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .7rem;
+    /* border: 2px solid; */
+}
+
+.body-nav li {
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    /* border: 2px solid; */
+    
+}
+
+ li #icon {
+    font-size: 19px;
+    margin-left: 10px;
+ }
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid; */
+
+}
+
+.body-nav a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.body-nav .first-li {
+    width: 100%;
+    display: flex;
+    background-color: #ff4500;
+}
+
+/* lado direito do menu */
+.section-user-count {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70vw;
+    height: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+.user-edit {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-edit { 
+    text-decoration: none;
+    background-color: #3ace3a;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+
+

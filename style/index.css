@@ -1,0 +1,131 @@
+body {
+    background-color: #f3eedc;
+}
+
+.box-carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrosel {
+    width: 100vw;
+    height: 400px;
+    padding: 12px;
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    border: 3px solid;
+}
+
+.container-info {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    /* border: 2px solid; */
+}
+
+.card-info {
+    width: 300px;
+    height: 300px;
+    padding: 12px;
+    border: 3px solid;
+    margin: 2rem;
+    border-radius: 4px;
+    box-shadow: 0px -15px 1px #ff4500
+}
+
+.ofertas-container {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-ofertas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitle-ofertas {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.box-ofertas {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ff4500;
+    border-radius: 6px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #ff4500;
+    text-decoration: none;
+}
+
+.box-ofertas:hover {
+    transition: 1s;
+    color: white;
+    background-color: #ff4500;
+}
+
+#logo-ofertas {
+    color: black;
+}
+
+.box-category {
+    width: 79.5vw;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.cards-category {
+    display: flex;
+    width: 128px;
+    height: 140px;
+    border: 2px solid #4c4ce6;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#category-logo {
+    font-size: 50px;
+}
+
+.card-content #logo-category {
+    font-size: 2.1rem;
+}
+
+.cards-category:hover {
+    transition: .8s;
+    background-color: #4c4ce6;
+    color: white;
+}
+
+#titulo-destaque {
+    color: #ff4500;
+    letter-spacing: 1px;
+}
+
+
+
+

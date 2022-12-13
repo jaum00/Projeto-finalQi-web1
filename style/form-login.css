@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;800&family=Noto+Sans:wght@400;700&display=swap');
+/* Heebo */
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3eedc;
+}
+
+.left-side {
+    width: 50vw;
+    height: 100vh;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 4px #000000
+}
+
+.left-side img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    left: 110px
+}
+
+.left-side .title-login{
+    color: white;
+    margin-bottom: 540px;
+    font-family: "Heebo";
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 2px 4px 1px #000000;
+}
+
+.right-side {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    padding: 15px;
+    position: fixed;
+}
+
+form h2{
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #5959f0;
+}
+
+form input{
+    border: none;
+    background-color: #ff4500e6;
+    border-radius: 10px;
+    padding: 12px;
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    margin: 5px
+}
+
+form label{
+    font-weight: 700;
+    margin: 4px 1px;
+}
+
+form span{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+form button{
+    position: relative;
+    top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 2px;
+    cursor: pointer;
+    
+}
+
+form button[type="submit"]{
+    background-color: #5959f0;
+    font-weight: "Heebo";
+    letter-spacing: 1px;
+}
+
+form button[type="submit"]:hover { 
+transition: 0.4s;
+color: white;
+box-shadow: 0px 5px 40px black;
+}

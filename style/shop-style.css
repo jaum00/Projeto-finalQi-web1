@@ -1,0 +1,150 @@
+/* Mais Vendidos */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.section-more-sale {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.section-shop-title {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.more-sale-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+}
+
+.more-sale-card {
+    background-color: #e9e7e6;
+    width: 26rem;
+    height: 15rem;
+    border: 2px solid;
+    border-radius: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.more-sale-card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.more-sale-card-content img {
+    width: 26rem;
+    height: 12rem;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 2px solid;
+}
+
+.more-sale-card-productName {
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+}
+
+/* MARCAS */
+
+.section-all-marks {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.box-marks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+}
+
+.card-marks {
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #e9e7e6;
+    cursor: pointer;
+}
+
+.marks-card-content img {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#cellphone-mark-logo {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+#samsung-img {
+    border-bottom: 2px solid;
+}
+
+#samsung-span{
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.mark-name {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-top: 2px solid;
+}
+
+/* Acessorios */
+
+.section-acessory {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.box-accesory {
+    height: 150px;
+    /* border: 2px solid ; */
+}
+
+.acessory-card {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.acessory-card-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.acessory-name {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}

@@ -1,0 +1,99 @@
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #252121;
+    flex-wrap: wrap;
+}
+
+header #logo-index {
+    height: 50px;
+    width: auto;
+    margin-top: 7px;
+    margin-left: 1.4rem;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Barra de pesquisa */
+
+.search-bar {
+    margin-top: 12px;
+}
+
+.search-box {
+    width: 700px;
+    height: 28px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search-text {
+    width: 680px;
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+
+.icone-pesquisa {
+    width: 25px;
+    height: 25px;
+}
+
+header ul {
+    display: flex;
+    margin-right: 1.4rem;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    display: flex;
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .links {
+    margin-top: 12px
+}
+
+header #logo-cart {
+    font-size: 23px;
+    position: relative;
+    top: 5px;
+}
+
+header #logo-user {
+    font-size: 36px;
+    position: relative;
+    bottom: 2px;
+}
+
+header .links:hover,
+#logo-cart:hover,
+#logo-user:hover {
+    transition: .1s;
+    color: #ff4500;
+}
+
+header .links:hover {
+    border-bottom: 4px solid #ff4500
+}
+
+header .links:active {
+    color: white;
+    border-bottom: 4px solid white
+}
